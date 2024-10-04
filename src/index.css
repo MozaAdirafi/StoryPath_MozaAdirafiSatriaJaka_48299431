@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+  }
+  
+  nav {
+    background-color: #1f2937; /* Tailwind gray-800 */
+    color: white;
+  }
+  
+  footer {
+    background-color: #1f2937; /* Tailwind gray-800 */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
